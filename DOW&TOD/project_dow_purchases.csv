@@ -1,0 +1,43 @@
+"project","num_day","name_day","num"
+aviata_air,0.0,Sunday   ,408322
+aviata_air,1.0,Monday   ,570482
+aviata_air,2.0,Tuesday  ,591592
+aviata_air,3.0,Wednesday,589242
+aviata_air,4.0,Thursday ,581789
+aviata_air,5.0,Friday   ,564517
+aviata_air,6.0,Saturday ,438967
+chocofood,0.0,Sunday   ,463328
+chocofood,1.0,Monday   ,404739
+chocofood,2.0,Tuesday  ,419132
+chocofood,3.0,Wednesday,427657
+chocofood,4.0,Thursday ,434699
+chocofood,5.0,Friday   ,476326
+chocofood,6.0,Saturday ,503224
+chocolife,0.0,Sunday   ,312735
+chocolife,1.0,Monday   ,261117
+chocolife,2.0,Tuesday  ,259055
+chocolife,3.0,Wednesday,271782
+chocolife,4.0,Thursday ,278976
+chocolife,5.0,Friday   ,307835
+chocolife,6.0,Saturday ,351032
+chocotravel_air,0.0,Sunday   ,196298
+chocotravel_air,1.0,Monday   ,327197
+chocotravel_air,2.0,Tuesday  ,340125
+chocotravel_air,3.0,Wednesday,338206
+chocotravel_air,4.0,Thursday ,342293
+chocotravel_air,5.0,Friday   ,321580
+chocotravel_air,6.0,Saturday ,226036
+loyalty,0.0,Sunday   ,733886
+loyalty,1.0,Monday   ,1096144
+loyalty,2.0,Tuesday  ,1131215
+loyalty,3.0,Wednesday,1134928
+loyalty,4.0,Thursday ,1157232
+loyalty,5.0,Friday   ,1175420
+loyalty,6.0,Saturday ,917321
+railway,0.0,Sunday   ,1041339
+railway,1.0,Monday   ,1232376
+railway,2.0,Tuesday  ,1256725
+railway,3.0,Wednesday,1280945
+railway,4.0,Thursday ,1274949
+railway,5.0,Friday   ,1266965
+railway,6.0,Saturday ,1102606
