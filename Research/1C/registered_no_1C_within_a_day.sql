@@ -3,7 +3,7 @@ with auth_completed as (
 		account_created_at,
 		user_id
 	from analytics."stg_chocoaccount_users"
-	where account_origin_project in ('13063087', '13312062', '11557511')
+	where account_origin_project in ('11557511')
 ), dif_table as (
 select
 	ac.user_id,
