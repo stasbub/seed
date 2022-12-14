@@ -13,7 +13,7 @@ select
 	DATEDIFF(day, account_created_at, order_created_at) as dif_col
 from auth_completed ac
 left join analytics.stg_choco_orders sco
-	on ac.user_id = sco.order_id
+	on ac.user_id = sco.user_id
 )
 select
 	to_char(account_created_at, 'yyyy-mm') as month_time,
