@@ -1,8 +1,8 @@
 "project","num_day","name_day","num"
 aviata_air,0.0,Sunday   ,93136
 aviata_air,1.0,Monday   ,131037
-aviata_air,2.0,Tuesday  ,135728
-aviata_air,3.0,Wednesday,134648
+aviata_air,2.0,Tuesday  ,135725
+aviata_air,3.0,Wednesday,136641
 aviata_air,4.0,Thursday ,138058
 aviata_air,5.0,Friday   ,130652
 aviata_air,6.0,Saturday ,100929
@@ -22,22 +22,43 @@ chocolife,5.0,Friday   ,38378
 chocolife,6.0,Saturday ,40552
 chocotravel_air,0.0,Sunday   ,16817
 chocotravel_air,1.0,Monday   ,33318
-chocotravel_air,2.0,Tuesday  ,33774
-chocotravel_air,3.0,Wednesday,33061
+chocotravel_air,2.0,Tuesday  ,33755
+chocotravel_air,3.0,Wednesday,33611
 chocotravel_air,4.0,Thursday ,33614
 chocotravel_air,5.0,Friday   ,32291
 chocotravel_air,6.0,Saturday ,19713
-loyalty,0.0,Sunday   ,169116
-loyalty,1.0,Monday   ,199962
-loyalty,2.0,Tuesday  ,202496
-loyalty,3.0,Wednesday,202199
-loyalty,4.0,Thursday ,204222
-loyalty,5.0,Friday   ,209315
-loyalty,6.0,Saturday ,187920
+digital_rest,0.0,Sunday   ,9364
+digital_rest,1.0,Monday   ,10241
+digital_rest,2.0,Tuesday  ,10297
+digital_rest,3.0,Wednesday,10350
+digital_rest,4.0,Thursday ,10543
+digital_rest,5.0,Friday   ,10762
+digital_rest,6.0,Saturday ,10135
+lensmark,0.0,Sunday   ,131
+lensmark,1.0,Monday   ,284
+lensmark,2.0,Tuesday  ,264
+lensmark,3.0,Wednesday,269
+lensmark,4.0,Thursday ,277
+lensmark,5.0,Friday   ,201
+lensmark,6.0,Saturday ,128
+loyalty,0.0,Sunday   ,50965
+loyalty,1.0,Monday   ,78028
+loyalty,2.0,Tuesday  ,79432
+loyalty,3.0,Wednesday,79414
+loyalty,4.0,Thursday ,81281
+loyalty,5.0,Friday   ,81109
+loyalty,6.0,Saturday ,63005
 railway,0.0,Sunday   ,272207
 railway,1.0,Monday   ,320958
-railway,2.0,Tuesday  ,329800
-railway,3.0,Wednesday,320811
+railway,2.0,Tuesday  ,329825
+railway,3.0,Wednesday,326345
 railway,4.0,Thursday ,320118
 railway,5.0,Friday   ,322073
 railway,6.0,Saturday ,285675
+ryadom,0.0,Sunday   ,51464
+ryadom,1.0,Monday   ,54929
+ryadom,2.0,Tuesday  ,56012
+ryadom,3.0,Wednesday,55835
+ryadom,4.0,Thursday ,54205
+ryadom,5.0,Friday   ,56108
+ryadom,6.0,Saturday ,52724
