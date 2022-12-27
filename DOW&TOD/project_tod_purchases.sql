@@ -25,18 +25,40 @@ all_orders as (
 	group by 1, 2
 	order by 1, 2
 
+),
+
+plus_utc as (
+
+	select
+		ao.project,
+		case
+			when project in ('aviata_air', 'chocotravel_air', 'chocofood', 'railway') then ao.date_par + 6
+			else ao.date_par
+		end,
+		case
+			when tor.num is not null then (ao.num - tor.num)
+			else ao.num
+		end as num 
+	from
+		all_orders ao
+	left join transcard_orders tor
+		on ao.project = tor.terminal_project
+			and ao.date_par = tor.date_par
+	order by 1, 2
+
 )
 
 select
-	ao.project,
-	ao.date_par,
+	project,
 	case
-		when tor.num is not null then (ao.num - tor.num)
-		else ao.num
-	end as num 
-from
-	all_orders ao
-left join transcard_orders tor
-	on ao.project = tor.terminal_project
-		and ao.date_par = tor.date_par
-order by 1, 2
+		when date_par = 24 then 0
+		when date_par = 25 then 1
+		when date_par = 26 then 2
+		when date_par = 27 then 3
+		when date_par = 28 then 4
+		when date_par = 29 then 5
+		else date_par
+	end as date_par,
+	num
+from plus_utc
+	
