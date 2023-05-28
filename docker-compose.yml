@@ -5,6 +5,6 @@ services:
     container_name: stas_3000
     build: ./
     volumes:
-      - ./src:/src
+      - ./src:/home/jovyan/work
     ports:
       - "8888:8888"
